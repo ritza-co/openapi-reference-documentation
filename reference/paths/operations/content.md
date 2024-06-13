@@ -2,7 +2,7 @@
 
 A map of Media Types (including wildcards) to a [Media Type Object](/openapi/paths/operations/content#media-type-object) that describes the content of the request or response as it relates to the media type consumed or produced.
 
-The key in the map is a [media or MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types) that determines how the content is encoded. This media type can include wildcards indicating a range of media types it covers. For example, `application/*` would match `application/json`, `application/xml`, and so on, and `*/*` would match any media type. It can be explicitly defined to match only a single media type, for example, `application/json; charset=utf-8`.
+The key in the map is a [media or MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types) that determines how the content is encoded. This media type can include wildcards indicating a range of media types it covers. For example, `application/*` would match `application/json`, `application/xml`, and so on. It can be explicitly defined to match only a single media type, for example, `application/json; charset=utf-8`.
 
 Where both a wildcard and a specific media type are defined, the specific media type definition takes precedence.
 
